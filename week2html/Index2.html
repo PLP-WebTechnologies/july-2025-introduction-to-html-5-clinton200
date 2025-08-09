@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>List of schools categories</h1>
+        <ol>
+            <li>National Schools</li>
+            <ul>
+                <li>Kapsabet Boys</li>
+                <li>Alliance Girls</li>
+                <li>Kenya High</li>
+            </ul>
+            <li>Extra County school</li>
+            <ul>
+                <li>Kino Boys</li>
+                <li>Rai Girls</li>
+                <li>St Joseph mixed</li>
+            </ul>
+        </ol>
+        <h1>Tables of the school perfomance</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Total marks</th>
+                    <th>Grade</th>
+                    <th>School Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Mutua</td>
+                    <td>456</td>
+                    <td>B</td>
+                    <td>Kino Boys</td>
+                </tr>
+                <tr>
+                    <td>Jane Janel</td>
+                    <td>440</td>
+                    <td>B</td>
+                    <td>Alliance Girl</td>
+                </tr>
+                <tr>
+                    <td>George Brian</td>
+                    <td>420</td>
+                    <td>B-</td>
+                    <td>Kapsabet Boys</td>
+                </tr>
+                <tr>
+                    <td>Violet Atieno</td>
+                    <td>410</td>
+                    <td>B-</td>
+                    <td>Kenya High</td>
+                </tr>
+                <tr>
+                    <td>Francis Alade</td>
+                    <td>390</td>
+                    <td>C+</td>
+                    <td>St Joseph Mixed</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>Embedding Photos of the school</h1>
+        <img src="students.jpg" alt="Teacher and students" width="350" height="350">
+        <h1>Embedding Videos and Audios of students</h1>
+        <video width="350" height="400" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+        </video>
+        <audio controls>
+            <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+            <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h1>Forms to make application for an open position</h1>
+        <form action="/">
+            <label for="Name">Full Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Your Full Name" required autocomplete="name">
+            <br></br>
+            <label for="Gender">Gender</label>
+            <input type="radio" name="gender" value="male">Male 
+            <input type="radio" name="gender" value="Female">Female
+            <br></br>
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob" required>
+            <br></br>
+            <label for="Email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required autocomplete="email">
+            <br></br>
+            <textarea name="bio" id="bio" cols="40" rows="20" placeholder="Write your cover letter"></textarea>
+            <br></br>
+            <label for="cv">Upload cv</label>
+            <input type="file" name="cv" id="cv">
+            <br></br>
+            <input type="submit" value="Submit Application">
+
+
+        </form>
+    </body>
+</html>
