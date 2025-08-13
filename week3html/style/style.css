@@ -1,0 +1,50 @@
+h1 {
+    color: black;
+}
+
+p {
+    color: forestgreen;
+}
+
+#header {
+    color: darkorange;
+}
+
+.invite {
+    color: darkred;
+    font-weight: bold;
+}
+
+* {
+    font-family: Arial, sans-serif;
+    background-color: lightslategray;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.2em;
+    height: 1.2;
+    line-height: 1.5;
+
+}
+
+.box-modal {
+    width: 700px;
+    height: 500px;
+    background-color: lightcoral;
+    border: black 2px solid;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.box-content {
+    width: 600px;
+    height: 400px;
+    background-color: lightblue;
+    border: black 2px solid;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.box-content p {
+    color: darkblue;
+    font-weight: bold;
+}
