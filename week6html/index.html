@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <!--Document theme for a web page-->
+    <button onclick="toggleTheme()">Click the button to change theme</button>
+
+
+    <button id="openModal">Add Person</button>
+
+    <div class="modal" id="personModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Add Person Details</h3>
+                <span class="close" id="closeModal">&times;</span>
+            </div>
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="text" placeholder="Role / Position" required>
+                <button type="submit">Save</button>
+            </form>
+        </div>
+    </div>
+
+    <!--Dr0p a photo-->
+    <div id="drop-zone">Drop image here</div>
+    <img src="https://images.pexels.com/photos/33671693/pexels-photo-33671693.jpeg" 
+    alt="dragged image" id="dragitem" draggable="true">
+
+
+
+    <input type="text" id="typeSomething" placeholder="Type something">
+
+    <!--form validation-->
+    <form onsubmit="return validateSignup()">
+        <input type="text" id="username" placeholder="Enter your Username"><br/>
+        <input type="email" id="email" placeholder="Enter your Email"><br/>
+        <input type="password" id="password" placeholder="Enter your Password"><br/>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script1.js"></script>
+</body>
+</html>
+
